@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://unpkg.com/react@18/umd/react.developement.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react.developement.js" crossorigin></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body>
+        
+        <div id= "mydiv"></div>
+
+        <script type="text/babel">
+            function  Hello() {
+                return <h1>Hello world</h1>
+            }
+
+            ReactDom.render(<Hello />, document.getElementById('mydiv'))
+        </script>
+
+    </body>
+</html>
